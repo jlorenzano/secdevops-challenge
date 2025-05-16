@@ -14,8 +14,8 @@ La api esta limitada a archivos de 32 MB. Para más información https://docs.vi
 8.  [Interpretación de la salida](#interpretacion-de-la-salida)
 9.  [Detener el contenedor](#detener-el-contenedor)
 10. [Eliminar el contenedor](#eliminar-el-contenedor)
-11. [Eliminar imagen del contenedor](#eliminar-imagen-del-contenedor) 
-12. [Créditos](#creditos)
+11. [Eliminar imagen del contenedor](#eliminar-imagen-del-contenedor)
+12. [Créditos](#creditos) 
 
 ## Caracteristicas
 - Subida de archivos para análisis.
@@ -100,7 +100,7 @@ Donde `<RUTA_DEL_ARCHIVO>` es la ruta del archivo a escanear, puede ser:
 - Una ruta absoluta: `/home/usuario/archivo.txt`  
 - O una ruta relativa: `./archivo.txt`
 
-### Interpretación de la salida
+### Interpretacion de la salida
 La salida cuando se hacer por curl regresara un json con todos los datos del analisis hecho por virus total relacionado a todos los motores de AV, pero en la parte final viene un campo llamado summary que contiene un resumen de todos los motores de AV, ejemplo:
 ```bash
 "summary":{
@@ -137,6 +137,6 @@ Si se quiere forzar la eliminacion de la imagen se usara
 docker rmi -f secdevops-challenge
 ```
 
-## Créditos
+## Creditos
 Proyecto desarrollado por: **Jose Carlos Lorenzano Vargas**.  
 *Todos los derechos reservados.*
