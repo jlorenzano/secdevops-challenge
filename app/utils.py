@@ -1,4 +1,9 @@
-def build_summary(scan_data):
+from typing import Dict, Any
+
+def build_summary(scan_data: Dict[str, Any]) -> Dict[str, int]:
+    """
+    Construye un resumen con estadísticas clave del análisis de VirusTotal.
+    """
     stats = scan_data["data"]["attributes"]["stats"]
     summary = {
         "Malicious": stats.get("malicious", 0),
@@ -14,7 +19,10 @@ def build_summary(scan_data):
     return summary
 
 
-def generate_html_from_analysis(analysis_result, filename):
+def generate_html_from_analysis(analysis_result: Dict[str, Any], filename: str) -> str:
+    """
+    Genera una tabla HTML con los resultados del análisis de VirusTotal.
+    """
     results = analysis_result.get("data", {}).get("attributes", {}).get("results", {})
     
     rows = ""
