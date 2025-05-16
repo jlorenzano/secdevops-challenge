@@ -44,7 +44,7 @@ La api esta limitada a archivos de 32 MB. Para más información https://docs.vi
 1. Clona el repositorio:
 
 ```bash
-git clone https://github.com/tuusuario/nombre-repo.git
+git clone https://github.com/jlorenzano/secdevops-challenge.git
 cd nombre-repo
 ```
 
