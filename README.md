@@ -25,7 +25,7 @@ La api esta limitada a archivos de 32 MB. Para más información https://docs.vi
 - Servido con Uvicorn.
 
 ### Anotacion
-~Por motivos de seguridad y buenas practicas no es recomendable subir la API Key a repositorios remotos, por lo que la llave se pasara como una variable de entorno al crear el contenedor en Docker.~
+Por motivos de seguridad y buenas practicas no es recomendable subir la API Key a repositorios remotos, por lo que la llave se pasara como una variable de entorno al crear el contenedor en Docker.
 
 ### Requisitos
 - Tener instalado Python3
@@ -53,7 +53,7 @@ cd nombre-repo
 ```bash
 python -m venv venv
 ```
-~Activacion de entorno virtual~
+Activacion de entorno virtual
 * En Linux/macOS
 ```bash
 source venv/bin/activate
