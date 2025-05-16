@@ -45,7 +45,7 @@ Por motivos de seguridad y buenas practicas no es recomendable subir la API Key 
 
 ```bash
 git clone https://github.com/jlorenzano/secdevops-challenge.git
-cd nombre-repo
+cd secdevops-challenge
 ```
 
 2. Crea un entorno virtual en Python
